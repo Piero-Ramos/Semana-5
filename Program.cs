@@ -75,27 +75,27 @@ namespace Semana5
 
                 case "Dulces":
                     Console.WriteLine("Acaba de escoger la opción Dulces");
-                    Console.WriteLine("Elija una de las opciones que tenemops para tí: Chicle, Chocolate, Gomitas");
+                    Console.WriteLine("Elija una de las opciones que tenemops para tí: Morochas, Oreo, Chupetin");
                     opcion = Console.ReadLine();
 
-                    if (opcion == "Chicle")
+                    if (opcion == "Morochas")
                     {
-                        Console.Write("Acaba de escoger la opción Chicle, ");
+                        Console.Write("Acaba de escoger la opción Morochas, ");
                         Console.Write("el monto a pagar sería de S/. 1.00");
                     }
                     else
                     {
-                        if (opcion == "Chocolate")
+                        if (opcion == "Oreo")
                         {
-                            Console.Write("Acaba de escoger la opción Chocolate, ");
+                            Console.Write("Acaba de escoger la opción Oreo, ");
                             Console.Write("el monto a pagar sería de S/. 2.00");
                         }
                         else
                         {
-                            if (opcion == "Gomitas")
+                            if (opcion == "Chupetin")
                             {
-                                Console.Write("Acaba de escoger la opción Gomitas, ");
-                                Console.Write("el monto a pagar sería de S/. 1.60");
+                                Console.Write("Acaba de escoger la opción Chupetin, ");
+                                Console.Write("el monto a pagar sería de S/. 1.20");
                             }
                         }
                     }
